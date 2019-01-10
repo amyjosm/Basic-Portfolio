@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" type="text/css" href="assets\css\style.css">
 
+    <link rel="stylesheet" type="text/css" href="assets\css\contact.css">
+
 </head>
 
 <body>
@@ -31,43 +33,30 @@
         </nav>
     </div>
 
-    <!-- About Me & Paragraph -->
+    <!-- Contact -->
     <div class="content">
 
 
 
         <h2>Contact</h2>
 
-        <div id="image"><img src="https://via.placeholder.com/200" alt="placeholder"></div>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est
-            laborum.
-        </p>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est
-            laborum.</p>
+        <hr class="new1">
 
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-            est
-            laborum.</p>
+        <form action="action_page.php">
+
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John Smith">
+
+            <label for="femail">Email</label>
+            <input type="text" id="femail" name="email" placeholder="example@gmail.com">
+
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="" style="height:200px" style="width:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
     </div>
 
     <!-- FOOTER -->

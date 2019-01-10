@@ -1,16 +1,21 @@
-/* MAIN PAGE STYLING */
+/* BODY */
+
+* {
+    padding: 0;
+    margin: 0;
+}
 
 body {
-background-image: url("../images/circuit.png");
+    background-image: url("../images/circuit.png");
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin: auto;
 }
 
 /* IMAGE */
 #image {
- float: left;
- padding: 10px;
+    float: left;
+    padding: 10px;
 }
 
 /* NAME */
@@ -51,6 +56,25 @@ nav {
 
 }
 
+/* HR STYLING */
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.new1 {
+    background-color: #fff;
+    border-top: 1px solid #4aaaa5;
+    width: 80%;
+}
+
 /* BORDER FOR NAVI */
 
 .border {
@@ -74,6 +98,7 @@ nav {
 .content {
     clear: both;
     background-color: #fff;
+    margin: auto;
     width: 960px;
     position: absolute;
     left: 20%;
@@ -83,6 +108,7 @@ nav {
 
 }
 
+
 /* LINK DECO */
 a:link, a:visited {
     background-color: white;
@@ -90,7 +116,7 @@ a:link, a:visited {
     padding: 10px;
     text-align: center;
     text-decoration: none;
-float: left;
+    float: left;
   }
 
   a:hover, a:active {
@@ -99,15 +125,18 @@ float: left;
   }
 
   /* FOOTER */
-  .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #808080;
-      text-align: center;
-      color: #fff;
-      font-size: 12px;
-      padding: 15px;
-      border-top: 5px solid #4aaaa5;
+  .footer{
+    clear: both;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0%;
+    margin-top: 70%;
+    background-color: #808080;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    padding: 15px;
+    border-top: 5px solid #4aaaa5;
   }
+
