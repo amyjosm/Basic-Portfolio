@@ -1,37 +1,92 @@
+/* MAIN PAGE STYLING */
+
 body {
 background-image: url("../images/circuit.png");
     color: #777;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* IMAGE */
+#image {
+ float: left;
+ padding: 10px;
+}
+
+/* NAME */
+.name {
+    float: left;
 }
 
 /* HEADING */
-
-h1 {
-color: #4aaaa5;
-background-color: #fff;
-border: 1px solid #ccc;
-font-family: Georgia, 'Times New Roman', Times, serif;
-padding: 15px;
-float: left;
-}
 
 h2 {
     clear: both;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 5%;
 }
 
 /* NAVIGATION */
 
 .navi {
-    float: left
+    margin-top: 0%;
+    display: flex;
+    flex-flow: row wrap;
+    background: #fff;
+    background-color: #fff;
+    justify-content: space-around;
+    margin: auto;
+
+}
+
+nav {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+
+}
+
+/* BORDER FOR NAVI */
+
+.border {
+    border-right: #4aaaa5 1px dashed;
+}
+
+/* TITLE */
+
+.title {
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 1px solid #ccc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+    float: left;
+    margin: auto;
+    }
+
+/* CONTENT */
+
+.content {
+    clear: both;
+    background-color: #fff;
+    width: 960px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    padding: 15px;
+    line-height: 150%;
 
 }
 
 /* LINK DECO */
 a:link, a:visited {
     background-color: white;
-    color: black;
+    color: #777;
     padding: 10px;
     text-align: center;
     text-decoration: none;
@@ -43,15 +98,16 @@ float: left;
     color: white;
   }
 
-/* CONTENT */
-
-.content {
-    clear: both;
-    width:100%;
-    max-width:960px;
-    height:100%; 
-    margin:0 auto;
-    background-color: #fff;
-    margin-left: 10%;
-    padding: 20px;
-}
+  /* FOOTER */
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #808080;
+      text-align: center;
+      color: #fff;
+      font-size: 12px;
+      padding: 15px;
+      border-top: 5px solid #4aaaa5;
+  }
