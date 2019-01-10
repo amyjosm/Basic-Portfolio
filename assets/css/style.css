@@ -163,6 +163,8 @@ a:link, a:visited {
     border-top: 5px solid #4aaaa5;
   }
 
+  /* PORTFOLIO PAGE */
+
   .row {
     display: flex;
   }
@@ -174,8 +176,8 @@ a:link, a:visited {
 
   .games {
     position: absolute;
-    top: 45%;
-    margin-left: 87px;
+    top: 45.9%;
+    margin-left: 11.6%;
     background-color: #4aaaa5;
     color: #fff;
     padding: 15px;
